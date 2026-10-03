@@ -27,8 +27,7 @@ npm run build
 ```
 
 Chrome’da `chrome://extensions` → **Geliştirici modu** → **Paketlenmemiş öğe yükle** → oluşan `dist` klasörünü seç.
-
-Testler: `npm test`[Doğrulama notları](docs/VALIDATION.md) · [MIT](LICENSE)
+[MIT](LICENSE)
 
 # Ayraç — kurulum
 
