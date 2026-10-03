@@ -2,8 +2,14 @@
 
 Sekmeleri açık tutmak yerine bağlantılarını klasörlerde sakla. Chrome yan panelinden bul, not ekle ve gerektiğinde yeniden aç.
 
+<img width="704" height="827" alt="1" src="https://github.com/user-attachments/assets/ae41e8d8-c48d-4e3d-b6c3-4549f35cdb5d" />
+<img width="704" height="827" alt="2" src="https://github.com/user-attachments/assets/906a5afb-3123-47eb-980a-4a7c851fe9f4" />
+<img width="704" height="827" alt="3" src="https://github.com/user-attachments/assets/25fa7534-d2e1-4da6-a095-ede170a90eb2" />
+<img width="704" height="827" alt="4" src="https://github.com/user-attachments/assets/acd8d886-9bbf-49ab-aaac-b3830936e91b" />
+<img width="704" height="827" alt="5" src="https://github.com/user-attachments/assets/e641f89b-1765-4e54-bf24-96c662071c91" />
 
-[Ayraç tanıtımı](docs/1.png) (docs/2.png)(docs/3.png)(docs/4.png)(docs/5.png)
+
+
 
 
 - Renkli klasörler, notlar, favoriler ve arama.
