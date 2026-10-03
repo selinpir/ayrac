@@ -10,8 +10,6 @@ Sekmeleri açık tutmak yerine bağlantılarını klasörlerde sakla. Chrome yan
 
 
 
-
-
 - Renkli klasörler, notlar, favoriler ve arama.
 - Kaydet veya kaydedip sekmeyi kapat.
 - Bağlantıları toplu aç, taşı ve sil; son silme işlemini geri al.
@@ -51,10 +49,6 @@ npm run build
 7. Ayraç simgesini sabitle ve simgeye tıklayarak yan paneli aç.
 
 `dist` ve `node_modules` GitHub kaynak koduna dahil değildir; yukarıdaki komutlarla oluşturulur. Uzantıyı yükledikten sonra `dist` klasörünü taşıma veya silme.
-
-## Güncelleme
-
-Mevcut uzantıyı kaldırmadan, aynı proje klasöründe yeni kaynak kodla tekrar `npm ci` ve `npm run build` çalıştır. Chrome uzantı kartındaki **yenile** simgesine bas. Aynı kurulum konumunu ve uzantı kimliğini koru; başka konumdan yeni uzantı yüklemek eski kayıtlara erişim garantisi vermez.
 
 ## Kullanım
 
