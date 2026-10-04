@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ayraç Chrome eklentisinin gizlilik politikası: işlenen veriler, yerel saklama, izinler ve silme.">
+  <meta name="color-scheme" content="light">
+  <title>Gizlilik Politikası · Ayraç</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #fafbf8; color: #24372c; font: 16px/1.75 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 800px; margin: auto; padding: 48px 28px 64px; }
+    header { padding-bottom: 30px; border-bottom: 1px solid #dce4d8; }
+    .brand { display: flex; align-items: center; gap: 12px; font-size: 23px; font-weight: 750; color: #0a3323; }
+    .brand svg { width: 42px; height: 42px; }
+    h1 { margin: 27px 0 8px; color: #0a3323; font-size: clamp(30px, 6vw, 42px); line-height: 1.2; letter-spacing: -1.2px; }
+    .meta { color: #5c6d60; margin: 0; font-size: 14px; }
+    .summary { background: #eef3e7; border-left: 3px solid #839958; padding: 18px 22px; border-radius: 0 12px 12px 0; margin: 28px 0; }
+    h2 { margin: 32px 0 10px; font-size: 21px; line-height: 1.4; color: #0a3323; }
+    p { margin: 10px 0; }
+    ul { padding-left: 22px; }
+    li { margin: 8px 0; }
+    a { color: #105666; text-underline-offset: 3px; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 3px solid #839958; outline-offset: 4px; }
+    dl { margin: 16px 0; }
+    dl div { display: grid; grid-template-columns: 110px 1fr; gap: 14px; padding: 14px 0; border-bottom: 1px solid #e0e6dc; }
+    dt { font-weight: 700; color: #0a3323; }
+    dd { margin: 0; }
+    footer { border-top: 1px solid #dce4d8; margin-top: 40px; padding-top: 20px; font-size: 14px; color: #5c6d60; }
+    @media (max-width: 480px) { main { padding: 28px 20px 40px; } dl div { grid-template-columns: 1fr; gap: 2px; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="brand">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="1" y="1" width="22" height="22" rx="5" fill="#0A3323"/><path d="M8 5h8v14l-4-3-4 3V5Z" fill="#F7F4D5"/></svg>
+      <span>Ayraç</span>
+    </div>
+    <h1>Gizlilik Politikası</h1>
+    <p class="meta">Son güncelleme: 4 Ekim 2026 · Eklenti sürümü: 0.3.0</p>
+  </header>
+
+  <p class="summary"><strong>Bağlantıların Chrome profilinde saklanır.</strong> Ayraç, sekmelerini ve kaydettiğin bağlantıları düzenlemek için gereken verileri cihazında işler. Bu verileri geliştiriciye veya harici bir sunucuya göndermez.</p>
+
+  <section aria-labelledby="scope">
+    <h2 id="scope">1. Kapsam</h2>
+    <p>Bu politika, Selin Pir tarafından geliştirilen Ayraç Chrome eklentisinin 0.3.0 sürümü için geçerlidir. Ayraç, bağlantıları klasörlerde saklamanı, not eklemeni ve Chrome yan panelinden yönetmeni sağlar. Kullanıcı hesabı gerektirmez.</p>
+  </section>
+  <section aria-labelledby="data">
+    <h2 id="data">2. Hangi veriler işlenir?</h2>
+    <ul>
+      <li><strong>Açık sekme bilgileri:</strong> mevcut Chrome penceresindeki sekmelerin adresi, başlığı, alan adı, site simgesi bilgisi, sekme ve pencere kimlikleri ile etkin veya sabitlenmiş olma durumu.</li>
+      <li><strong>Kaydedilen bağlantılar:</strong> bağlantı adresi, başlığı, alan adı, site simgesi bilgisi, klasörü, eklediğin notlar, favori ve durum bilgileri, kaydedilme ve son açılma zamanı.</li>
+      <li><strong>Düzenleme tercihleri:</strong> klasör adları, simgeleri, renkleri ve sıraları; kategorilendirme kuralları, sekme atamaları ve eklenti ayarları.</li>
+      <li><strong>Geri alma verisi:</strong> son silme işlemini geri alabilmek için tutulan yerel durum kopyaları.</li>
+    </ul>
+    <p>Adresler, sayfa başlıkları ve yazdığın notlar kişisel bilgi içerebilir. Bu bilgiler yalnızca eklentinin bağlantı yönetimi özellikleri için kullanılır.</p>
+    <p>Ayraç sayfa içeriğini, formları, parolaları veya çerezleri okumaz; Chrome geçmiş veritabanına erişmez. Gizli modda çalışmaz.</p>
+  </section>
+  <section aria-labelledby="use">
+    <h2 id="use">3. Veriler ne için kullanılır?</h2>
+    <p>Veriler; açık sekmeleri listelemek, bağlantıları kaydetmek ve aramak, klasörlemek, yerel kuralları uygulamak, notları ve favorileri göstermek, bağlantıları açmak, sekmeleri gruplamak ve seçtiğin silme işlemini geri almak için kullanılır.</p>
+    <p>Bu sürümde yapay zekâ analizi veya harici bir yapay zekâ API’si bulunmaz.</p>
+  </section>
+  <section aria-labelledby="storage">
+    <h2 id="storage">4. Saklama ve paylaşım</h2>
+    <p>Kalıcı kayıtlar Chrome profilindeki yerel eklenti depolamasında tutulur. Geçici sekme ve grup eşleştirmelerinde Chrome’un oturum depolaması da kullanılır. Ayraç bulut yedekleme veya cihazlar arasında eşitleme yapmaz.</p>
+    <p>Eklenti, kullanıcı verilerini geliştiriciye veya üçüncü taraflara iletmez, satmaz ya da reklam amacıyla kullanmaz. Analitik, reklam veya kullanıcı takibi hizmetleri içermez.</p>
+    <p>Kaydettiğin bir bağlantıyı açtığında tarayıcın ilgili web sitesine bağlanır. Bu sitenin veri işlemesi kendi gizlilik politikasına tabidir.</p>
+  </section>
+  <section aria-labelledby="permissions">
+    <h2 id="permissions">5. Chrome izinleri</h2>
+    <dl>
+      <div><dt>tabs</dt><dd>Açık sekmelerin başlık ve adreslerini göstermek; seçtiğin bağlantıları açmak, mevcut sekmeye geçmek ve istediğin sekmeleri kapatmak.</dd></div>
+      <div><dt>storage</dt><dd>Bağlantıları, klasörleri, ayarları ve geri alma verisini yerel olarak saklamak.</dd></div>
+      <div><dt>sidePanel</dt><dd>Ayraç arayüzünü Chrome yan panelinde sunmak.</dd></div>
+      <div><dt>tabGroups</dt><dd>İlgili özelliği kullandığında sekmeleri klasörlerine göre Chrome sekme gruplarında düzenlemek.</dd></div>
+    </dl>
+  </section>
+  <section aria-labelledby="deletion">
+    <h2 id="deletion">6. Saklama süresi ve silme</h2>
+    <p>Kaydettiğin bağlantıları ve klasörleri eklentinin arayüzünden silebilirsin. Kayıtlar, sen silene veya eklentinin yerel verileri kaldırılana kadar Chrome profilinde tutulur.</p>
+    <p>Geri alma özelliği nedeniyle son silme işleminden önceki ve sonraki durumun bir kopyası cihazında kalabilir. Bu kopya silinen bağlantıları ve notları da içerebilir. Geri alma bildiriminin kapanması bu kopyayı silmez; yeni bir silme işlemi kopyanın üzerine yazar, başarılı bir geri alma işlemi ise kopyayı temizler.</p>
+    <p>Tüm yerel eklenti verilerini, geri alma kopyası dahil, kaldırmak için Chrome’un eklenti yönetimi sayfasından Ayraç’ı kaldırabilirsin. Geliştiricide bu verilerin bir kopyası bulunmadığından silinen yerel veriler geliştirici tarafından geri getirilemez.</p>
+  </section>
+  <section aria-labelledby="limited">
+    <h2 id="limited">7. Sınırlı kullanım</h2>
+    <p>Ayraç, Chrome API’lerinden aldığı kullanıcı verilerini yalnızca burada açıklanan ve kullanıcıya sunulan özellikler için kullanır. Bu verilerin kullanımı, Sınırlı Kullanım (Limited Use) gereklilikleri dahil <a href="https://developer.chrome.com/docs/webstore/program-policies/user-data">Chrome Web Store Kullanıcı Verileri Politikası</a> ile uyumludur.</p>
+  </section>
+  <section aria-labelledby="contact">
+    <h2 id="contact">8. Değişiklikler ve iletişim</h2>
+    <p>Veri işleme biçimi değişirse bu politika ve güncelleme tarihi yenilenir.</p>
+    <p>Geliştirici: <strong>Selin Pir</strong>. Gizlilikle ilgili sorularını <a href="https://github.com/selinpir/ayrac/issues">Ayraç GitHub deposundaki Issues bölümü</a> üzerinden iletebilirsin. Herkese açık taleplere özel bağlantılarını veya kişisel bilgilerini ekleme.</p>
+  </section>
+  <footer>
+    <p>Bu politika sayfası harici yazı tipi, analiz betiği veya çerez kullanmaz. Sayfa GitHub Pages üzerinde yayımlandığında barındırma hizmeti, sayfaya erişimle ilgili teknik verileri kendi <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">gizlilik bildirimi</a> kapsamında işleyebilir.</p>
+    <a href="https://github.com/selinpir/ayrac">Ayraç · GitHub</a>
+  </footer>
+</main>
+</body>
+</html>
